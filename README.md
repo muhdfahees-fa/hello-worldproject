@@ -28,11 +28,21 @@ cd hello-worldproject
 npm install
 ```
 
-## Build
+## Development
 
 ```bash
-npm run build
+npm run dev       # Starts a dev server with hot reload (no build needed)
 ```
+
+## Production Build & Run
+
+```bash
+npm run build     # Builds the app into the dist/ folder
+npx serve -s dist # Serves the built files on http://localhost:3000
+```
+
+- `npm run build` only creates the files, it does not start a server
+- `npx serve -s dist` starts a server to serve those files to the browser
 
 ## Docker
 
