@@ -9,6 +9,7 @@ Make sure you have the following installed:
 ```bash
 node --version    # Node.js (v18 or above)
 npm --version     # npm (comes with Node.js)
+npx --version     # npx (comes with npm, used to run packages without installing)
 docker --version  # Docker (for containerized run)
 ```
 
